@@ -1,0 +1,38 @@
+.data {
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  background: rgba(0, 0, 0, 0.1);
+}
+
+.data:before {
+  z-index: -1;
+  content: "";
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  background: url(../../assets/images/data-bg.png) no-repeat;
+}
+
+.data .content {
+  top: 30%;
+  left: 50%;
+  width: 50%;
+  display: flex;
+  position: absolute;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.data .content p {
+  margin: 1rem 0;
+}
+
+@media screen and (max-width: 940px) {
+  .data .content {
+    left: 0;
+    width: 100%;
+    padding: 1rem;
+    background: rgba(255, 255, 255, 0.7);
+  }
+}
