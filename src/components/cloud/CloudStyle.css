@@ -28,8 +28,8 @@
 }
 
 .cloud p {
-  color: #f8f8f8;
   margin: 1rem 0;
+  color: #f8f8f8;
 }
 
 @media screen and (max-width: 940px) {
