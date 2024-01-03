@@ -13,7 +13,7 @@ root.render(
     <Routes>
       <Route path="/" element={<App />}></Route>
       <Route path="/recovery" element={<RecoveryPage />}></Route>
-      <Route path="/cloudPage" element={<CloudPage />}></Route>
+      <Route path="/cloud" element={<CloudPage />}></Route>
       <Route path="/contact" element={<ContactPage />}></Route>
     </Routes>
   </BrowserRouter>

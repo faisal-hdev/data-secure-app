@@ -23,8 +23,12 @@ const Navbar = () => {
           <li>
             <Link to="recovery">Recovery</Link>
           </li>
-          <li>Cloud</li>
-          <li>Contact</li>
+          <li>
+            <Link to="cloud">Cloud</Link>
+          </li>
+          <li>
+            <Link to="contact">Contact</Link>
+          </li>
           <button>Sign in</button>
         </ul>
         <div className="hamburger" onClick={handleNav}>
